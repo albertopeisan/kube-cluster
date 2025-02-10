@@ -3,5 +3,4 @@ minikube start --cpus 4 --memory 10240 --disk-size 20g -n 5 --base-image docker.
 minikube profile kube-cluster
 minikube addons enable ingress
 minikube addons enable metrics-server
-minikube dashboard --url
 ```
