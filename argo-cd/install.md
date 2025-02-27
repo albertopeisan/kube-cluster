@@ -1,6 +1,6 @@
 ```bash
 kubectl create namespace argocd
-kubectl apply -n argocd -f ./argo-cd/argocd.yaml
+kubectl apply -f ./argo-cd/manifests/argocd.yaml -n argocd
 ```
 
 Wait until the argocd deployment is running.
