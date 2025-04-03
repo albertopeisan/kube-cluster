@@ -2,7 +2,7 @@ Create namespace and deploy argocd.
 
 ```bash
 kubectl create namespace argocd
-kubectl apply -f ./argo-cd/manifests/argocd.yaml -n argocd
+kubectl apply -f ./argocd/manifests/argocd.yaml -n argocd
 ```
 
 Wait until the argocd deployment is running and port-forward traffic.
