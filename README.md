@@ -63,7 +63,7 @@ To start a multi-node Minikube cluster, use the following commands:
 ```bash
 # Start a multi-node cluster with 5 nodes, each node with 4 vCPUs, 2GB memory, and 10GB disk. Modify this parameters to your needs
 # Enables ingress and metrics-server addons
-minikube start --cpus 4 --memory 2048 --disk-size 10g --nodes 5 --base-image docker.io/kicbase/stable:v0.0.46 -p kube-cluster
+minikube start --cpus 4 --memory 2048 --disk-size 20g --nodes 5 --base-image docker.io/kicbase/stable:v0.0.46 -p kube-cluster
 minikube profile kube-cluster
 minikube addons enable ingress
 minikube addons enable metrics-server
